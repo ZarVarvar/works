@@ -1,0 +1,145 @@
+body {
+    width: 1360px;
+    height: 1530px;
+}
+
+/* Шапка */
+
+.top {
+    width: 1360px;
+    height: 74px;
+    /* background-color: rgb(5, 255, 180); */
+}
+
+a {
+    text-decoration: none;
+    color: #979797;
+}
+
+.logo {
+    margin-right: 325.5px;
+    margin-left: 68px;
+}
+
+.margin {
+    margin: auto 40px;
+}
+
+.toptext {
+    padding: 26px 0;
+    margin: auto;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+}
+
+/* Текст под шапкой */
+
+.text1 {
+    margin-top: 40px;
+    margin-left: 68px;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 64px;
+}
+
+/* box1, box2 */
+
+.box1,
+.box2 {
+    margin-top: 64px;
+    margin-left: 69px;
+}
+
+.imgpad {
+    padding-bottom: 28px;
+    margin-right: 26px;
+    animation: spawn_animation 1.5s;
+}
+
+.imgbox {
+    margin-right: 26px;
+    animation: spawn_animation 1.5s;
+}
+
+.imgpad:hover{
+    box-shadow: 0 0 10px rgba(0, 255, 55, 0.5); 
+    border-radius: 16px;
+}
+
+.imgbox:hover{
+    box-shadow: 0 0 10px rgba(0, 255, 55, 0.5); 
+    border-radius: 16px;
+}
+
+@keyframes spawn_animation {
+    0% {
+        opacity: 0%;
+        transform: translateY(240px);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+/* Подвал */
+
+.footer {
+    margin-top: 112px;
+    width: 1360px;
+    height: 292px;
+    background: #F3F4F5;
+}
+
+.spisok {
+    padding-top: 30px;
+    color: #333F48;
+    opacity: 0.5;
+}
+
+.spisok1 {
+    font-size: 14px;
+    line-height: 18px;
+    float: left;
+    margin-right: 136px;
+}
+
+.spisok2 {
+    font-size: 14px;
+    line-height: 18px;
+    float: left;
+    margin-right: 558px;
+}
+
+.spisok1 li,
+.spisok2 li {
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+
+.text {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    color: #333F48;
+    line-height: 18px;
+}
+
+.low {
+    margin-top: 46px;
+    margin-left: 30px;
+}
+
+.lowspan {
+    margin-right: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333F48;
+    opacity: 0.5;
+}
+
+.logo2 {
+    margin-left: 301px;
+}
